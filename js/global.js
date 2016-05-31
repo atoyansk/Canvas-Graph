@@ -9,9 +9,9 @@ $(document).ready(function(){
 		graph.margin = 2;
 		graph.colors = ["#49a0d8", "#d353a0", "#ffc527", "#df4c27", "#68893D"];
 		graph.bcolors = ["#1F638F", "#7E2159", "#956C00", "#8B2C14", "#34441E"]
-		graph.xAxisLabelArr = ["HTML5", "CSS3", "JavaScript", "AngularJS", "Scrum", "ITIL", "PMO"];
+		graph.xAxisLabelArr = ["HTML5", "CSS3", "JavaScript", "AngularJS", "PHP", "Scrum", "ITIL", "PMO"];
 		setInterval(function () {
-			graph.update([85, 75, 60, 52, 90, 93, 70]);
+			graph.update([85, 75, 60, 52, 60, 90, 93, 70]);
 		}, 1000);
 	}
 
